@@ -1,0 +1,75 @@
+.main-body{
+     background-image: url(https://cdn.wallpapersafari.com/93/30/Hqdzvj.jpg);
+     width: 100%;
+     height: 670px;
+ }
+.head{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 85px;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: rgba (0,0,0,0.5);
+    overflow: hidden;
+    margin-left: 819px;
+    padding-top: 26px;
+  }
+  
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: cyan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    
+    color: whitesmoke;
+  }
+  .topnav a.active:hover{
+    color: whitesmoke;
+  }
+  /* Add a color to the active/current link */
+  .topnav a.active {
+   
+    color: cyan;
+  }
+  .left-section{
+    padding-top: 76px;
+    margin-left: 108px;
+    width: 40%;
+  }
+  .right-section{
+    padding-left: 584px;
+    width: 51%;
+    margin-top: -254px;
+  }
+  .sponsor{
+    color: blanchedalmond;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+      padding-left: 0px;
+      padding-top: 10px;
+  }
+  .sponsor1{
+    color: blanchedalmond;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+      padding-left: 1px;
+      margin-top: -9px;
+  }
+  .sponsor2{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blanchedalmond;
+  }
+  .sp3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blanchedalmond;
+  }

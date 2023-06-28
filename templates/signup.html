@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tones Toys</title>
+    <link rel="stylesheet" href="/static/css/signup.css">
+    <link rel="icon" type="image/x-icon" href="/static/images/234.png">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <form class="form" action="/submit-signup" method="post">
+                <h2 class="register">Register Now</h2>
+                <input class="text" required="" text name="firname" placeholder="First Name">
+                <br>
+                <input class="text1" required="" text name="secname" placeholder="Last Name">
+                <br>
+                <input class="text1" type="email" name="email" placeholder="Enter Your Email ">
+                <br>
+                <input class="text1" type="number" name="number" placeholder="Enter Your Mobile Number ">
+                <br>
+                <input class="text1" type="password" name="crpassword" placeholder="Create a Password">
+                <br>
+                <input class="text1" type="password" name="copassword" placeholder="Confirm Your Password">
+                <br> 
+                <p>{{msg}}</p>
+                
+                <button  type="submit" value="submit" class="sub" >Sign up</button>
+                <br>
+
+
+            </form>
+        </div>
+        <div class="right-side">
+            <p>Thank You For Registering With us <br>Enjoy Shopping On TONES TOYS</p>
+            
+            <br>
+            <img src="/static/images/234.png">
+        </div>
+
+    </div>
+
+</body>
+</html>
